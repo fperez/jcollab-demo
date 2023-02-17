@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -eux
+
+# Install the MyST CLI - https://github.com/executablebooks/mystjs
+npm install -g myst-cli

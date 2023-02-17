@@ -1,0 +1,13 @@
+# Dependencies for nbconvert and myst
+# Latex tools
+texlive-xetex
+texlive-plain-generic
+texlive-fonts-recommended
+texlive-lang-chinese
+latexmk
+lmodern
+latexdiff
+
+# Other useful document-related tools
+pandoc
+imagemagick

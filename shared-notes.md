@@ -5,8 +5,8 @@ authors:
   - name: Fernando Pérez
     email: fernando.perez@berkeley.edu
     affiliations:
-      - Department of Statistics, UC Berkeley.
-      - Computing Sciences Research, Lawrence Berkeley National Laboratory.
+      - Department of Statistics, UC Berkeley
+      - Computing Sciences Research, Lawrence Berkeley National Laboratory
 keywords: Jupyter, MyST, Interactive computing.
 exports:
   - format: pdf
@@ -22,7 +22,9 @@ MyST seamlessly exports to any PDF template, while collecting metadata to make y
 writing process as easy as possible.
 
 +++
-# A new Markdown file
+# A new Markdown rises from the myst
+
+Let's test a few features of markdown with the 
 
 A little list with checkboxes:
 
@@ -41,7 +43,7 @@ And code:
 
 ```python
 def foo(bar):
-	return bar
+    return bar
 
 foo("asd")
 ```

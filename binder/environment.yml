@@ -1,0 +1,14 @@
+name: myst-demo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - jupyter-book
+  - jupyterlab-link-share
+  - nbconvert
+  - nodejs
+
+# Packages not available on conda-forge, installed through pip
+  - pip:
+    - jupyterlab_myst

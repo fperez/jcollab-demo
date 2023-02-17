@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec "$@" --collaborative --ContentsManager.allow_hidden=True
