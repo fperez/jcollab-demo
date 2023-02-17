@@ -1,23 +1,43 @@
+---
+title: My new story
+subtitle: A tale from the mysts of Jupyter
+authors:
+  - name: Fernando Pérez
+    email: fernando.perez@berkeley.edu
+    affiliations:
+      - Department of Statistics, UC Berkeley.
+      - Computing Sciences Research, Lawrence Berkeley National Laboratory.
+keywords: Jupyter, MyST, Interactive computing.
+exports:
+  - format: pdf
+    template: lapreprint
+  - format: docx
+---
+
++++ { "part": "abstract" }
+
+MyST (Markedly Structured Text) is designed to create publication-quality documents
+written entirely in Markdown. The markup and publishing build system is fantastic,
+MyST seamlessly exports to any PDF template, while collecting metadata to make your
+writing process as easy as possible.
+
++++
 # A new Markdown file
 
-
-We _now_ have HackMD!! 
+A little list with checkboxes:
 
 - [ ] Test item
 - [ ] Item 2
 
-http://google.com
+Testing links: http://google.com
 
-
-H
-
-test 
-
-I'm typing here too!
+Math works:
 
 $$
 x+\alpha
 $$
+
+And code: 
 
 ```python
 def foo(bar):
