@@ -11,6 +11,7 @@ keywords: Jupyter, MyST, Interactive computing.
 exports:
   - format: pdf
     template: lapreprint
+    venue_footer: arxiv
   - format: docx
 ---
 
