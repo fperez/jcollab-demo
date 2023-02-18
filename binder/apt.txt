@@ -2,6 +2,7 @@
 # Latex tools
 texlive-xetex
 texlive-plain-generic
+texlive-fonts-extra
 texlive-fonts-recommended
 texlive-lang-chinese
 latexmk
